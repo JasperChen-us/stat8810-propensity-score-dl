@@ -1,0 +1,50 @@
+{
+  "base_seed": 8810,
+  "R": 50,
+  "n_list": [
+    1000
+  ],
+  "p": 10,
+  "rho": 0.3,
+  "binary_columns_1based": [
+    3,
+    6,
+    9
+  ],
+  "e_floor": 0.01,
+  "target_treated_share": 0.5,
+  "outcome_model": "O2",
+  "true_ate": 1.5,
+  "calibration": {
+    "moderate_good": {
+      "f_mean": -0.034597622188761744,
+      "f_sd": 1.9827481663749185,
+      "gamma": 1.0,
+      "alpha0": -0.003044480202932659
+    },
+    "strong_good": {
+      "f_mean": 0.02763352353670082,
+      "f_sd": 1.458261793013727,
+      "gamma": 1.0,
+      "alpha0": -0.007143018246271532
+    }
+  },
+  "covariate_roles": {
+    "confounders": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "treatment_only": [
+      5,
+      6,
+      7
+    ],
+    "outcome_only": [
+      8,
+      9,
+      10
+    ]
+  }
+}
